@@ -54,15 +54,6 @@ Open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
-## 🌐 Deployment  
-
-You can deploy this app for free using:  
-- **[Streamlit Community Cloud](https://share.streamlit.io/)** (recommended)  
-- [Render](https://render.com)  
-- [Hugging Face Spaces](https://huggingface.co/spaces)  
-
----
-
 ## 📦 Requirements  
 
 Your `requirements.txt` should include:  
