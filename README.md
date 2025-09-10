@@ -24,7 +24,11 @@ The app includes:
 This project is designed for **business analysts, data scientists, and students** interested in understanding churn behavior and applying machine learning in real-world scenarios.  
 
 ---
+## 🚀 Live Demo  
 
+👉 [Click here to view the live app](https://telecom-customer-churn-prediction-webapp.streamlit.app/)  
+
+---
 ## 📂 Dataset  
 
 The app uses the [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn).  
