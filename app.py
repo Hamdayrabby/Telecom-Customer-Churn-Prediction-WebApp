@@ -175,7 +175,8 @@ def train_advanced_models(X_train, X_test, y_train, y_test):
                 'n_estimators': [100, 200],
                 'learning_rate': [0.01, 0.1],
                 'max_depth': [3, 6],
-                'num_leaves': [31, 50]
+                'num_leaves': [31, 50],
+                'early_stopping_rounds': [10]
             }
         },
         'Bagging': {
