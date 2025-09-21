@@ -65,7 +65,7 @@ Your `requirements.txt` should include:
 ```
 streamlit==1.28.1
 pandas==2.0.3
-numpy==1.24.3
+numpy==1.26
 scikit-learn==1.3.0
 matplotlib==3.7.2
 seaborn==0.12.2
