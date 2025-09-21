@@ -357,15 +357,15 @@ if uploaded_file is not None:
             plt.tight_layout()
             st.pyplot(fig)
         
-        # Churn Score distribution
-        if 'Churn Score' in df.columns:
-            st.subheader("Churn Score Distribution")
-            fig, axes = plt.subplots(2, 1, figsize=(10, 8))
-            sns.histplot(df, x='Churn Score', kde=True, ax=axes[0])
-            axes[0].set_xlabel(None)
-            sns.boxenplot(df, x='Churn Score', ax=axes[1])
-            plt.tight_layout()
-            st.pyplot(fig)
+        # # Churn Score distribution
+        # if 'Churn Score' in df.columns:
+        #     st.subheader("Churn Score Distribution")
+        #     fig, axes = plt.subplots(2, 1, figsize=(10, 8))
+        #     sns.histplot(df, x='Churn Score', kde=True, ax=axes[0])
+        #     axes[0].set_xlabel(None)
+        #     sns.boxenplot(df, x='Churn Score', ax=axes[1])
+        #     plt.tight_layout()
+        #     st.pyplot(fig)
         
         # Monthly Charges vs Churn
         if 'Monthly Charges' in df.columns and 'Churn Value' in df.columns:
@@ -1045,3 +1045,4 @@ else:
     - **Tenure Months**: Total months the customer has been with the company
     """
     st.markdown(col_ref)
+
